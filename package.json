@@ -1,0 +1,17 @@
+{
+  "name": "json-value-switcher",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "babel-node App.js",
+    "test": "jest"
+  },
+  "repository": "diego_carreirozc@gitlab.com",
+  "author": "Diego da Costa",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^23.6.0"
+  }
+}
