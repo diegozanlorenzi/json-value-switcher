@@ -1,18 +1,16 @@
 {
-    "array": [
-        1,
-        "hey",
-        1234,
-        [],
-        [123, [[{
-            "string":"no",
-            "number":0.85
-        }]]],
-        {},
-        {
-            "string":"yes",
-            "number":0.75
-        }],
+    "array": [123, "...", 0.75, null, [[{
+        "string":"no",
+        "number":0.85
+    }], {
+        "percentage": 100,
+        "boolean": true,
+        "name of candidate": "Diego da Costa"
+      }], {
+          "void":null,
+          "zero": 0,
+          "empty":""
+      }],
     "object": {},
-    "test":"DiegoDaCosta"
+    "test":"Diego Da Costa"
 }

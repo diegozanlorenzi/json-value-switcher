@@ -1,20 +1,20 @@
 {
     "person": "beans",
-    "employee": "sambla",
+    "employee": "diego da costa",
     "number": 1234,
-    "obj": {
-        "oi":123,
-        "tchau":456,
-        "feliz":[],
-        "natal": {
-            "arroz":true,
-            "feijao":false,
-            "farofa": 2.15
+    "nested-object": {
+        "hi":123,
+        "bye":456,
+        "happy":[],
+        "Christmas is here": {
+            "rice":true,
+            "beans":false,
+            "banana": 2.15
         }
     },
     "decimal": 0.15,
     "array": [],
-    "jason": {},
+    "object": {},
     "boolean": 0,
-    "vazio": null
+    "void": null
 }
