@@ -126,7 +126,7 @@ test("switch: Expects value colision to overide the content", () => {
   expect(JsonValueSwitcher.switch(originalJson)).toMatchObject(switchedJson);
 });
 
-test("switch: Expects empty JSON to return empty", () => {
+test("switch: Expects empty object to be empty", () => {
   expect(JsonValueSwitcher.switch({})).toMatchObject({});
 });
 

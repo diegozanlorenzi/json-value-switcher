@@ -9,9 +9,9 @@ const json = JSON.parse(fs.readFileSync(`./input/${config.inputFileName}`).toStr
 
 let switchedJson = JsonValueSwitcher.switch(json);
 
-const data = new Uint8Array(Buffer.from(JSON.stringify(switchedJson, null, 2)));
+const switchedJsonData = new Uint8Array(Buffer.from(JSON.stringify(switchedJson, null, 2)));
 
-fs.writeFile(`./output/${config.outputFileName}`, data, (err) => {
+fs.writeFile(`./output/${config.outputFileName}`, switchedJsonData, (err) => {
   if (err) throw err;
   console.log(`Switched JSON file ${config.outputFileName} generated in folder /output`);
 });
