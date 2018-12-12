@@ -1,0 +1,20 @@
+{
+    "person": "beans",
+    "employee": "sambla",
+    "number": 1234,
+    "obj": {
+        "oi":123,
+        "tchau":456,
+        "feliz":[],
+        "natal": {
+            "arroz":true,
+            "feijao":false,
+            "farofa": 2.15
+        }
+    },
+    "decimal": 0.15,
+    "array": [],
+    "jason": {},
+    "boolean": 0,
+    "vazio": null
+}
