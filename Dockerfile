@@ -4,4 +4,4 @@ MAINTAINER Diego da Costa <diego_carreirozc@hotmail.com>
 
 WORKDIR /json-value-switcher
 
-RUN yarn install
+CMD yarn install && bash

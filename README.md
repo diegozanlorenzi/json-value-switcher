@@ -57,7 +57,7 @@ To run this project, you should install [docker](https://docs.docker.com/install
 As dependencies it is used [Jest](https://jestjs.io/) to tests and [Babel](https://babeljs.io/) as a transpiler from ES6 to Common.Js.
 
 # Setting up the container
-In the project folder, run the following command:
+In the project folder, run the following command (don't forget the -d):
 ```
 docker-compose up -d
 ```
@@ -70,14 +70,14 @@ It will:
 After that you can run the commands directly from your host machine
 ```
 -- from your host machine
-docker exec -ti sambla_app_1 yarn start
-docker exec -ti sambla_app_1 yarn test
+docker exec -ti json-value-switcher_app_1 yarn start
+docker exec -ti json-value-switcher_app_1 yarn test
 ```
 
 Or from inside the container:
 ```
 -- access the container
-docker exec -ti sambla_app_1 bash
+docker exec -ti json-value-switcher_app_1 bash
 -- from the container
 yarn start
 yarn test
